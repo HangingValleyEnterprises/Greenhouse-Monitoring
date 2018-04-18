@@ -1,0 +1,9 @@
+prefix=/var/log/iot.logs/IoTLogFile
+suffix=$(date +%s)
+filename=$prefix.$suffix
+echo "Log File = $filename"
+
+cd ~/iot-hub-node-raspberrypi-client-app
+sudo node index.js 'HostName=Demonstration-Training.azure-devices.net;DeviceId=StreamingGreenhouseSensors;SharedAccessKey=XXXXXX' > $filename &
+
+

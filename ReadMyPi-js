@@ -1,0 +1,3 @@
+cd ~/iot-hub-node-raspberrypi-client-app
+sudo node index.js 'HostName=BenchMark.azure-devices.net;DeviceId=benchmark5534;SharedAccessKey=xxxxxxxxxx'
+

@@ -1,0 +1,4 @@
+cd ~/iot-hub-node-raspberrypi-client-app
+sudo node index.js 'HostName=StreamingAgSensors.azure-devices.net;DeviceId=StreamingAgSensor-1;SharedAccessKey=xxxxxxxxxxxxxxxxxxx'
+
+

@@ -1,1 +1,0 @@
-HostName=Demonstration-Training.azure-devices.net;DeviceId=StreamingGreenhouseSensors;SharedAccessKey=xxxxxx
